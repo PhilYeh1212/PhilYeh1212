@@ -20,11 +20,11 @@ I've packaged my production-ready source codes into reusable tools. You can find
 
 | Category | Tool | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **🤖 AI** | **Local AI Knowledge Base** | Offline RAG system using Docker + Llama 3. | [View Repo]([GitHub連結](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3)) |
-| **🚛 Vehicle** | **CAN Bus & J1939 Sniffer** | Decodes J1939 PGNs with simulation mode. | [View Repo]([GitHub連結](https://github.com/PhilYeh1212/Python-CAN-Bus-J1939-Sniffer-GUI)) |
-| **🏭 Industrial** | **Modbus Data Logger** | Multi-threaded GUI for RS485 debugging. | [View Repo]([GitHub連結](https://github.com/PhilYeh1212/Python-Modbus-Serial-Logger-GUI)) |
-| **☁️ IoT** | **MQTT Data Logger** | Paho-MQTT v2.0 Client with CSV export. | [View Repo]([GitHub連結](https://github.com/PhilYeh1212/Python-MQTT-Data-Logger-GUI)) |
-| **🔌 Network** | **Ethernet/IP Study Kit** | Raw CIP Client + Mock PLC Server. | [View Repo]([GitHub連結](https://github.com/PhilYeh1212/Python-EthernetIP-Raw-Socket-Client)) |
+| **🤖 AI** | **Local AI Knowledge Base** | Offline RAG system using Docker + Llama 3. | [View Repo](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3) |
+| **🚛 Vehicle** | **CAN Bus & J1939 Sniffer** | Decodes J1939 PGNs with simulation mode. | [View Repo](https://github.com/PhilYeh1212/Python-CAN-Bus-J1939-Sniffer-GUI) |
+| **🏭 Industrial** | **Modbus Data Logger** | Multi-threaded GUI for RS485 debugging. | [View Repo](https://github.com/PhilYeh1212/Python-Modbus-Serial-Logger-GUI) |
+| **☁️ IoT** | **MQTT Data Logger** | Paho-MQTT v2.0 Client with CSV export. | [View Repo](https://github.com/PhilYeh1212/Python-MQTT-Data-Logger-GUI) |
+| **🔌 Network** | **Ethernet/IP Study Kit** | Raw CIP Client + Mock PLC Server. | [View Repo](https://github.com/PhilYeh1212/Python-EthernetIP-Raw-Socket-Client) |
 
 👉 **[Get the Ultimate Senior Engineer Toolkit (5-in-1 Bundle)]([你的全套包Gumroad連結](https://pokhts.gumroad.com/l/senior-engineer-toolkit))**
 
