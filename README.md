@@ -58,3 +58,13 @@ I write about real industrial Python problems — the kind you only hit after a 
 ---
 
 <sub>If any of these tools save you time, the best way to say thanks is a ⭐ on the repo or a tip on Gumroad. Both keep the projects maintained.</sub>
+
+---
+
+### 🤝 Affiliate Program
+
+Are you a YouTuber, blogger, or newsletter writer covering 
+industrial Python, IIoT, or automation? Promote my tools 
+and earn 25-30% commission per sale.
+
+[Apply to become an affiliate](https://philyeh.gumroad.com/affiliates)
