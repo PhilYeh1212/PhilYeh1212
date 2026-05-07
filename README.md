@@ -15,8 +15,8 @@ I've packaged years of production code into focused, single-file Python tools, a
 | Category | Tool | Description | Link |
 | --- | --- | --- | --- |
 | **🆓 Free** | **CSV Dashboard** | Drag-and-drop CSV → interactive plots. Pair with any logger above. | [Gumroad (free / PWYW)](https://philyeh.gumroad.com/l/python-csv-dashboard) |
-| **🔔 IIoT** | **IIoT Alarm Engine** | Real-time alarms for Modbus + MQTT → Email/Slack/Telegram/Webhook | [Repo](https://github.com/PhilYeh1212/IIoT-Alarm-Engine-Real-time-Alerts-from-Modbus-MQTT-to-Slack-Email-Telegram) · [Gumroad](https://philyeh.gumroad.com/l/iiot-alarm-engine) |
-| **🌉 Industrial** | **OPC UA Bridge Pro** | 4-in-1 bridge: Modbus/MQTT/CSV/Demo → OPC UA server | [Repo](https://github.com/PhilYeh1212/OPC-UA-Bridge-Pro-CSV-Modbus-MQTT-to-OPC-UA-Server) · [Gumroad](https://philyeh.gumroad.com/l/opcua-bridge-pro) |
+| **🔔 IIoT** | **IIoT Alarm Engine** | Real-time alarms for Modbus + MQTT → Email/Slack/Telegram/Webhook | [Repo](https://github.com/PhilYeh1212/IIoT-Alarm-Engine-Real-time-Alerts-from-Modbus-MQTT-to-Slack-Email-Telegram) |
+| **🌉 Industrial** | **OPC UA Bridge Pro** | 4-in-1 bridge: Modbus/MQTT/CSV/Demo → OPC UA server | [Repo](https://github.com/PhilYeh1212/OPC-UA-Bridge-Pro-CSV-Modbus-MQTT-to-OPC-UA-Server) |
 | **🤖 AI** | **Local AI Knowledge Base** | Offline RAG with Docker + Llama 3 — chat with your docs privately | [Repo](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3) |
 | **🚛 Vehicle** | **CAN Bus & J1939 Sniffer** | Real-time PGN parsing with built-in traffic simulator | [Repo](https://github.com/PhilYeh1212/Python-CAN-Bus-J1939-Sniffer-GUI) |
 | **🏭 Industrial** | **Modbus Data Logger** | Multi-threaded GUI for RS485/TCP debugging, 8 data formats | [Repo](https://github.com/PhilYeh1212/Python-Modbus-Serial-Logger-GUI) |
