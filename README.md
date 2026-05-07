@@ -14,7 +14,7 @@ I've packaged years of production code into focused, single-file tools. The repo
 
 | Category | Tool | Description | Link |
 | --- | --- | --- | --- |
-| **🆓 Free** | **CSV Dashboard** | Drag-and-drop CSV → interactive plots. Pair with any logger above. | [Gumroad (free / PWYW)](https://pokhts.gumroad.com/l/csv-dashboard) |
+| **🆓 Free** | **CSV Dashboard** | Drag-and-drop CSV → interactive plots. Pair with any logger above. | [Gumroad (free / PWYW)](https://pokhts.gumroad.com/l/python-csv-dashboard) |
 | **🔔 IIoT** | **IIoT Alarm Engine** | Real-time alarms for Modbus + MQTT → Email/Slack/Telegram/Webhook | [Gumroad](https://pokhts.gumroad.com/l/iiot-alarm-engine) |
 | **🌉 Industrial** | **OPC UA Bridge Pro** | 4-in-1 bridge: Modbus/MQTT/CSV/Demo → OPC UA server | [Gumroad](https://pokhts.gumroad.com/l/opcua-bridge-pro) |
 | **🤖 AI** | **Local AI Knowledge Base** | Offline RAG with Docker + Llama 3 — chat with your docs privately | [View Repo](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3) |
