@@ -1,69 +1,37 @@
-<!--
-================================================================================
-  GitHub profile README for PhilYeh1212
-  Target: visitors land here, immediately see what's offered, and have
-  three clear paths: (1) try the free tool, (2) read the engineering blog,
-  (3) buy the paid toolkit.
-================================================================================
--->
-
 ### Hi there, I'm Phil 👋
 
-**Senior Automation Engineer · Python · Industrial IoT · Local AI**
+**Senior Automation Engineer | Python | Industrial IoT | Local AI**
 
-I build production-ready Python tools that let engineers automate workflows
-and debug industrial protocols **without expensive hardware**. CAN bus
-analyzers, Modbus loggers, MQTT clients, EtherNet/IP debuggers — every
-tool I wished I had during 8+ years of plant-floor work.
+I build open-source tools to help engineers automate their workflow and debug protocols without expensive hardware.
 
-📍 Based in Taiwan · 🛠️ 6 published tools · 🏆 Top Docker Author on Dev.to
+Based in Hsinchu, Taiwan. Day job: industrial automation at Kiwa. Side projects: making the tools I wish existed when I was starting out.
 
 ---
 
-### 🎁 Try the Free Tool First
+### 🛠️ My Engineering Toolkit (Open Source + Commercial Pro)
 
-If this is your first visit, start here:
+I've packaged years of production code into focused, single-file tools. The repos below show what they do; the **Pro** versions on [my Gumroad store](https://pokhts.gumroad.com) include the full source, commercial license, and ongoing updates.
 
-> 📊 **[CSV Dashboard](https://pokhts.gumroad.com/l/csv-dashboard-free)** — A free Python tool for plotting timeseries CSVs.
-> Multi-series overlay, auto twin Y-axis, smart time formatting,
-> per-series stats. Drop in any CSV and see the trend.
->
-> [`Download free`](https://pokhts.gumroad.com/l/csv-dashboard-free) · No signup required, source included.
+| Category | Tool | Description | Link |
+| --- | --- | --- | --- |
+| **🔔 IIoT** | **IIoT Alarm Engine** | Real-time alarms for Modbus + MQTT → Email/Slack/Telegram/Webhook | [Gumroad](https://pokhts.gumroad.com/l/iiot-alarm-engine) |
+| **🌉 Industrial** | **OPC UA Bridge Pro** | 4-in-1 bridge: Modbus/MQTT/CSV/Demo → OPC UA server | [Gumroad](https://pokhts.gumroad.com/l/opcua-bridge-pro) |
+| **🤖 AI** | **Local AI Knowledge Base** | Offline RAG with Docker + Llama 3 — chat with your docs privately | [View Repo](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3) |
+| **🚛 Vehicle** | **CAN Bus & J1939 Sniffer** | Real-time PGN parsing with built-in traffic simulator | [View Repo](https://github.com/PhilYeh1212/Python-CAN-Bus-J1939-Sniffer-GUI) |
+| **🏭 Industrial** | **Modbus Data Logger** | Multi-threaded GUI for RS485/TCP debugging, 8 data formats | [View Repo](https://github.com/PhilYeh1212/Python-Modbus-Serial-Logger-GUI) |
+| **☁️ IoT** | **MQTT Data Logger** | Paho-MQTT v2 client with subscribe/publish/CSV export | [View Repo](https://github.com/PhilYeh1212/Python-MQTT-Data-Logger-GUI) |
+| **🔌 Network** | **EtherNet/IP Study Kit** | Raw CIP client + mock PLC server for learning the protocol | [View Repo](https://github.com/PhilYeh1212/Python-EthernetIP-Raw-Socket-Client) |
 
----
-
-### 🛠️ The Engineering Toolkit
-
-Each tool is **fully open-source for personal use** (see GitHub repos below)
-and available with a **commercial license + extra features** on my Gumroad
-store.
-
-| Tool | What it does | GitHub | Buy |
-|---|---|---|---|
-| 🚛 **J1939 Sniffer Pro** | Heavy-duty CAN bus analyzer with auto-PGN decoding (RPM, °C, km/h) | [Repo](https://github.com/PhilYeh1212/Python-CAN-Bus-J1939-Sniffer-GUI) | [$59](https://pokhts.gumroad.com) |
-| ⚙️ **Modbus Logger Pro** | RTU + TCP polling with smart register decoding (uint16 / int16 / float32) | [Repo](https://github.com/PhilYeh1212/Python-Modbus-Serial-Logger-GUI) | [$49](https://pokhts.gumroad.com) |
-| 📡 **MQTT Logger Pro** | Subscribe + publish + auto-JSON flatten to CSV for IoT brokers | [Repo](https://github.com/PhilYeh1212/Python-MQTT-Data-Logger-GUI) | [$39](https://pokhts.gumroad.com) |
-| 🏭 **EtherNet/IP Study Kit** | Learn CIP byte-by-byte with a real Mock PLC (Allen-Bradley, Omron, etc.) | [Repo](https://github.com/PhilYeh1212/Python-EthernetIP-Raw-Socket-Client) | [$29](https://pokhts.gumroad.com) |
-| 🔒 **Private ChatGPT Stack** | Self-hosted RAG with Llama 3 + Docker. Chat with your private documents offline. | [Repo](https://github.com/PhilYeh1212/Local-AI-Knowledge-Base-Docker-Llama3) ⭐ | [$59](https://pokhts.gumroad.com) |
-
-> 📦 **[Industrial Python Toolkit Bundle](https://pokhts.gumroad.com)** — Get all 4 industrial tools (J1939, Modbus, MQTT, EtherNet/IP) for **$129** — saves $47 vs buying individually.
-
-🛒 **Browse the full store:** [pokhts.gumroad.com](https://pokhts.gumroad.com)
+👉 **Bundle deal:** [Industrial Integration Bundle](https://pokhts.gumroad.com/l/industrial-integration-bundle) — OPC UA Bridge + Modbus Logger + MQTT Logger together, save $48.
 
 ---
 
-### ✍️ Engineering Blog
+### ✍️ Writing
 
-I write about industrial Python, protocol internals, and local AI — the
-stuff I wish someone had written when I was learning these protocols.
+I write about real industrial Python problems — the kind you only hit after a Modbus float reads `1.4e-41` at 3 AM.
 
-- [**Local RAG with Llama 3 & Docker: Build an Offline Second Brain (No OpenAI)**](https://dev.to/philyeh/how-i-built-a-100-offline-second-brain-for-engineering-docs-using-docker-llama-3-no-openai-4gcj) — *11 reactions, top post*
-- [**The Architecture of Implicit Messaging: Implementing Raw CIP I/O in Python**](https://dev.to/philyeh/the-architecture-of-implicit-messaging-implementing-raw-cip-io-in-python-1o0c)
-- [**Stop decoding Hex manually. I built a Python J1939 Sniffer with a GUI**](https://dev.to/philyeh/stop-decoding-hex-manually-i-built-a-python-j1939-sniffer-with-a-gui-no-hardware-needed-1p8o)
-- [**How I Fixed Python's Serial Freezing Issue: A Multi-threaded Tkinter Solution**](https://dev.to/philyeh/how-i-fixed-pythons-serial-freezing-issue-a-multi-threaded-tkinter-solution-2n21)
-- [**From Theory to Practice: Digital Twin Core Concepts for Engineers**](https://dev.to/philyeh/from-theory-to-practice-digital-twin-core-concepts-and-implementation-ideas-for-engineers-3f0l)
-
-📚 **[See all posts on Dev.to →](https://dev.to/philyeh)**
+- [Dev.to / philyeh](https://dev.to/philyeh) — technical deep-dives, every couple of weeks
+- [Medium / @pokhts](https://medium.com/@pokhts) — longer-form notes
 
 ---
 
@@ -71,23 +39,21 @@ stuff I wish someone had written when I was learning these protocols.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat&logo=mqtt&logoColor=white)
-![Modbus](https://img.shields.io/badge/-Modbus-FF6600?style=flat&logoColor=white)
-![CAN%20Bus](https://img.shields.io/badge/-CAN%20Bus-FFB200?style=flat&logoColor=white)
-![Llama%203](https://img.shields.io/badge/-Llama%203-50E69A?style=flat&logoColor=black)
+![Modbus](https://img.shields.io/badge/-Modbus-E10600?style=flat)
+![OPC%20UA](https://img.shields.io/badge/-OPC%20UA-6366F1?style=flat)
+![CAN%20Bus](https://img.shields.io/badge/-CAN%20Bus-FF9146?style=flat)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
 
 ### 📫 Connect
 
-- 🛒 **Store:** [pokhts.gumroad.com](https://pokhts.gumroad.com)
-- ✍️ **Blog:** [dev.to/philyeh](https://dev.to/philyeh)
-- 📰 **Medium:** [medium.com/@pokhts](https://medium.com/@pokhts)
-- 📧 **Email:** pokhts@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/phil-yeh-204144297/)
+- [Dev.to](https://dev.to/philyeh)
+- [Medium](https://medium.com/@pokhts)
+- [Gumroad Store](https://pokhts.gumroad.com)
 
 ---
 
-<sub>If a tool here saved you time on real industrial work, a ⭐ on the repo
-or a [review on Gumroad](https://pokhts.gumroad.com) means a lot to an indie
-developer. Thanks for stopping by!</sub>
+<sub>If any of these tools save you time, the best way to say thanks is a ⭐ on the repo or a tip on Gumroad. Both keep the projects maintained.</sub>
